@@ -23,7 +23,7 @@ document.querySelector(".city").innerText="weather in " + name;
 document.querySelector(".icon").src=
 "http://openweathermap.org/img/wn/" + icon +".png";
 document.querySelector(".description").innerText=description;
-document.querySelector(".temp").innerText=temp +"*c";
+document.querySelector(".temp").innerText=temp +"°c";
 document.querySelector(".humidity").innerText="humidity:" +humidity+"%";
 document.querySelector(".wind").innerText="windspeed:" +speed+ "km/h";
 document.querySelector(".weather").classList.remove("loading");
